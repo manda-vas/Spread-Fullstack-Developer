@@ -1,0 +1,219 @@
+body {
+  background-color: #fafafa;
+}
+.container {
+  display: flex;
+  margin: 32px auto;
+  max-width: 935px;
+  justify-content: center;
+}
+
+.login-instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 350px;
+  margin-top: 39px;
+}
+
+.user-picture {
+  border: solid 1px #efefef;
+  border-radius: 100px;
+  height: 84px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  width: 84px;
+}
+
+.login-instagram button {
+  background-color: #0095f6;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  min-width: 120px;
+  margin: 16px auto 20px auto;
+}
+
+.login-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  max-width: 350px;
+  min-width: 100%;
+}
+
+.login-picture a {
+  margin-bottom: 20px;
+}
+
+.login-picture a,
+.create-account a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0095f6;
+  text-decoration: none;
+}
+
+.logo-instagram {
+  margin: 36px 0 12px 0;
+}
+
+.create-account {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  max-width: 350px;
+  min-width: 100%;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.app-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-instagram img {
+  height: 40px;
+}
+
+.app-instagram img:first-child {
+  margin-right: 8px;
+}
+
+.image-instagram {
+  margin-right: 32px;
+}
+
+.nav-footer {
+  max-width: 840px;
+  max-width: 840px;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-footer a {
+  margin: 0 8px 12px 8px;
+  display: inline-block;
+}
+
+.nav-footer a,
+.country-copyright {
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  color: #8e8e8e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.country-copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.country-copyright p:nth-child(2) {
+  margin-left: 16px;
+}
+
+@media (min-width: 769px) {
+  .logo-meta {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-instagram {
+    display: none;
+  }
+
+  .login-instagram {
+    margin-top: 51px;
+  }
+
+  .download-app,
+  .app-instagram {
+    display: none;
+  }
+
+  body {
+    background-color: #fff;
+    margin: 0;
+  }
+
+  .create-account {
+    border: none;
+    border-top: 1px solid #dbdbdb;
+    padding-left: 36px;
+    padding-right: 36px;
+    min-width: auto;
+    margin: 0;
+    padding: 22px 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-footer {
+    background-color: #fafafa;
+    padding: 24px 0;
+  }
+
+  .country-copyright p:nth-child(2) {
+    display: none;
+  }
+
+  .country-copyright p:first-child {
+    position: absolute;
+    top: 5px;
+  }
+
+  .logo-meta {
+    margin-bottom: 24px;
+  }
+
+  .login-instagram {
+    border: 1px solid #dbdbdb;
+  }
+
+  .login-picture {
+    border: none;
+    background-color: transparent;
+  }
+
+  .login-picture a {
+    margin-bottom: 9px;
+  }
+
+  .container {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .login-instagram {
+    border: none;
+    margin-top: 8px;
+  }
+}
